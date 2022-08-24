@@ -36,7 +36,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Custom Startup commands
-exec --no-startup-id xrandr --dpi 175
+#exec --no-startup-id xrandr --dpi 175
 #restart
 
 # Use pactl to adjust volume in PulseAudio.
