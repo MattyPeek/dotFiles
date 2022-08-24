@@ -1,0 +1,24 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=1076727574000166119299400000016560005
+clientId2=1076727574000166119299400000016560006
+clientId3=1076727574000166119299400000016560007
+count=3
+discardCommand1[$e]=rm,$HOME/.config/session/kmix_1076727574000166119299400000016560005_1661193645_898062
+program1=/usr/bin/kmix
+program2=/usr/bin/kalendarac
+program3=/usr/lib/DiscoverNotifier
+restartCommand1=/usr/bin/kmix,-session,1076727574000166119299400000016560005_1661193645_898062
+restartCommand2=/usr/bin/kalendarac,-session,1076727574000166119299400000016560006_1661193645_898068
+restartCommand3=/usr/lib/DiscoverNotifier,-session,1076727574000166119299400000016560007_1661193645_898075
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+userId1=maty
+userId2=maty
+userId3=maty

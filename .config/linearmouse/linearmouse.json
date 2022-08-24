@@ -1,0 +1,74 @@
+{
+  "$schema" : "https:\/\/app.linearmouse.org\/schema\/0.7.0-beta.3",
+  "schemes" : [
+    {
+      "buttons" : {
+        "universalBackForward" : true
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse"
+        }
+      },
+      "pointer" : {
+        "disableAcceleration" : false
+      },
+      "scrolling" : {
+        "reverse" : {
+          "horizontal" : false,
+          "vertical" : true
+        }
+      }
+    },
+    {
+      "buttons" : {
+        "universalBackForward" : true
+      },
+      "if" : {
+        "device" : {
+          "productName" : "SteelSeries Rival 3 Wireless",
+          "productID" : "0x1830",
+          "category" : "mouse",
+          "vendorID" : "0x1038"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0,
+        "speed" : 0.1,
+        "disableAcceleration" : false
+      },
+      "scrolling" : {
+        "reverse" : {
+          "horizontal" : false,
+          "vertical" : false
+        },
+        "distance" : 3
+      }
+    },
+    {
+      "buttons" : {
+        "universalBackForward" : true
+      },
+      "if" : {
+        "device" : {
+          "productName" : "Rival 3 Wireless",
+          "productID" : "0x1830",
+          "category" : "mouse",
+          "vendorID" : "0x111"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0,
+        "speed" : 0.1,
+        "disableAcceleration" : false
+      },
+      "scrolling" : {
+        "reverse" : {
+          "horizontal" : false,
+          "vertical" : true
+        },
+        "distance" : 3
+      }
+    }
+  ]
+}
