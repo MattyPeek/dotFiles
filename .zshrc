@@ -140,11 +140,12 @@ unset __conda_setup
 
 export HOMEBREW_GITHUB_API_TOKEN=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
 
-<<<<<<< HEAD
+#<<<<<<< HEAD
 
 alias config="/usr/bin/git --git-dir=$HOME/.config-git/ --work-tree=$HOME"
 alias battery="cat /sys/class/power_supply/macsmc-battery/capacity"
 export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 export PATH="/usr/local/opt/llvm/bin:$PATH"
-=======
->>>>>>> 92ae54a01787ce162ab8a0ff99835c8155935e93
+
+#=======
+#>>>>>>> 92ae54a01787ce162ab8a0ff99835c8155935e93
