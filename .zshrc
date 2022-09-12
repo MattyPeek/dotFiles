@@ -116,9 +116,9 @@ alias battery="cat /sys/class/power_supply/macsmc-battery/capacity"
 
 # EXEC # 
 
-xinput set-prop "Lenovo Lenovo Wireless Mouse" "libinput Accel Speed" -0.8
-xinput set-prop "SteelSeries SteelSeries Rival 3 Wireless" "libinput Natural Scrolling Enabled" 1
-xinput set-prop "SteelSeries SteelSeries Rival 3 Wireless" "libinput Accel Speed" -1.0
+#xinput set-prop "Lenovo Lenovo Wireless Mouse" "libinput Accel Speed" -0.8
+#xinput set-prop "SteelSeries SteelSeries Rival 3 Wireless" "libinput Natural Scrolling Enabled" 1
+#xinput set-prop "SteelSeries SteelSeries Rival 3 Wireless" "libinput Accel Speed" -1.0
 
 
 ################
