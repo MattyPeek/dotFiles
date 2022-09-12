@@ -102,12 +102,26 @@ source $ZSH/oh-my-zsh.sh
 
 
 
-#KKT$################
+##### MY USER INPUT #####
+
+# ALIASES #
 
 alias ls="lsd"
 alias pesek='ssh maty@pesek.pro -p2222'
 alias c="clear"
 alias brin="brew install"
+alias yin="yay -S"
+alias config="/usr/bin/git --git-dir=$HOME/.config-git/ --work-tree=$HOME"
+alias battery="cat /sys/class/power_supply/macsmc-battery/capacity"
+
+# EXEC # 
+
+xinput set-prop "Lenovo Lenovo Wireless Mouse" "libinput Accel Speed" -0.8
+xinput set-prop "SteelSeries SteelSeries Rival 3 Wireless" "libinput Natural Scrolling Enabled" 1
+xinput set-prop "SteelSeries SteelSeries Rival 3 Wireless" "libinput Accel Speed" -1.0
+
+
+################
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -126,8 +140,11 @@ unset __conda_setup
 
 export HOMEBREW_GITHUB_API_TOKEN=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
 
+<<<<<<< HEAD
 
 alias config="/usr/bin/git --git-dir=$HOME/.config-git/ --work-tree=$HOME"
 alias battery="cat /sys/class/power_supply/macsmc-battery/capacity"
 export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 export PATH="/usr/local/opt/llvm/bin:$PATH"
+=======
+>>>>>>> 92ae54a01787ce162ab8a0ff99835c8155935e93

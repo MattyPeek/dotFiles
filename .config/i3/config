@@ -35,9 +35,16 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
-# Custom Startup commands
+### USER'S EXEC ###
+
 #exec --no-startup-id xrandr --dpi 175
 #restart
+exec --no-startup-id nitrogen --set-scaled $HOME/.config/i3/wallpapers/linuks.jpg
+exec --no-startup-id xinput set-prop "SteelSeries SteelSeries Rival 3 Wireless" "libinput Natural Scrolling Enabled" 1
+exec --no-startup-id xinput set-prop "SteelSeries SteelSeries Rival 3 Wireless" "libinput Natural Scrolling Enabled" 1
+#exec --no-startup-id nitrogen --restore
+
+###################
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -59,7 +66,7 @@ bindsym $mod+Shift+Return exec --no-startup-id firefox
 bindsym $mod+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+space exec --no-startup-id dmenu_run
+bindsym $mod+space exec --no-startup-id rofi -show drun
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
