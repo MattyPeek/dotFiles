@@ -149,3 +149,4 @@ export PATH="/usr/local/opt/llvm/bin:$PATH"
 
 #=======
 #>>>>>>> 92ae54a01787ce162ab8a0ff99835c8155935e93
+alias dpi=xinput set-prop "Rival 3 Wireless" "libinput Accel Speed" -1
