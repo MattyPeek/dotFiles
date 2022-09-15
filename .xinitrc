@@ -10,4 +10,7 @@ fi
 # For Macbook:
 #xrandr --dpi 175
 
+# Run .Xmodmaprc
+xmodmap $HOME/.Xmodmaprc
+
 exec i3
