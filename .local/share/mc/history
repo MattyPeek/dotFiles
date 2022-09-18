@@ -1,0 +1,29 @@
+[input2]
+0=/home/maty/.local/share/Steam/steamapps/compatdata/813780/pfx/drive_c/windows/system32
+
+[input-def]
+0=*
+
+[cmdline]
+0=cd
+1=wget https://aka.mc/vs/15/release/vc_redist.x64.exe
+2=yay -S wget
+3=mkdir a10-extracted
+4=
+
+[Dir Hist New Right Panel]
+0=/home/maty/.local/share/Steam
+1=/home/maty
+2=/home/maty/gits
+3=/home/maty/gits/vc_redist_15
+4=/home/maty/gits/vc_redist_15/a10-extracted
+
+[Dir Hist New Left Panel]
+0=/home/maty/.local/share/Steam
+1=/home/maty/.local/share/Steam/steamapps
+2=/home/maty/.local/share/Steam/steamapps/compatdata
+3=/home/maty/.local/share/Steam/steamapps/compatdata/813780
+4=/home/maty/.local/share/Steam/steamapps/compatdata/813780/pfx
+5=/home/maty/.local/share/Steam/steamapps/compatdata/813780/pfx/drive_c
+6=/home/maty/.local/share/Steam/steamapps/compatdata/813780/pfx/drive_c/windows
+7=/home/maty/.local/share/Steam/steamapps/compatdata/813780/pfx/drive_c/windows/system32
