@@ -113,6 +113,7 @@ alias brin="brew install"
 alias yin="yay -S"
 alias config="/usr/bin/git --git-dir=$HOME/.config-git/ --work-tree=$HOME"
 alias battery="cat /sys/class/power_supply/macsmc-battery/capacity"
+alias 4k='xrandr --dpi 150 && xinput set-prop "SteelSeries SteelSeries Rival 3 Wireless" "libinput Accel Speed" -0.8'
 
 # EXEC # 
 
