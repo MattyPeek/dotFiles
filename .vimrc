@@ -1,7 +1,6 @@
 set shell=/bin/bash
 
 syntax on
-
 set number
 set nocompatible              " be iMproved, required
 filetype off                  " required
