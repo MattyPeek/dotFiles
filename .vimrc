@@ -14,13 +14,15 @@ Plugin 'preservim/nerdtree'
 "Plugin 'vim-airline/vim-airline'
 "Plugin 'vim-airline/vim-airline-themes'
 Plugin 'sheerun/vim-polyglot'
-Plugin 'catppuccin/vim'
+"Plugin 'catppuccin/vim'
 Plugin 'itchyny/lightline.vim'
+Plugin 'dracula/vim',{'name':'dracula'}
 
 call vundle#end()            " required
 
-colorscheme catppuccin_macchiato
-let g:lightline = {'colorscheme': 'catppuccin_macchiato'}
+"colorscheme catppuccin_macchiato
+colorscheme dracula
+let g:lightline = {'colorscheme': 'dracula'}
 set noshowmode
 set laststatus=2
 
