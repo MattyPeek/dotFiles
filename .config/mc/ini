@@ -84,10 +84,13 @@ editor_filesize_threshold=64M
 editor_stop_format_chars=-+*\\,.;:&>
 mcview_eof=
 skin=catppuccin
+editor=vim
+
+filepos_max_saved_entries=1024
 
 [Layout]
 output_lines=0
-left_panel_size=136
+left_panel_size=49
 top_panel_size=0
 message_visible=true
 keybar_visible=true
@@ -110,12 +113,16 @@ autodetect_codeset=
 clipboard_store=
 clipboard_paste=
 
+spell_language=en
+
 [Colors]
 base_color=
 xterm-256color=
 color_terminals=
 
 alacritty=
+
+linux=
 
 [Panels]
 show_mini_info=true
