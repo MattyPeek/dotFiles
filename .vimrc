@@ -9,20 +9,23 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin('~/.vim/bundle/')
 
 
-Plugin 'VundleVim/Vundle.vim'
+"Plugin 'VundleVim/Vundle.vim'
 Plugin 'preservim/nerdtree'
 "Plugin 'vim-airline/vim-airline'
 "Plugin 'vim-airline/vim-airline-themes'
-Plugin 'sheerun/vim-polyglot'
-"Plugin 'catppuccin/vim'
+"Plugin 'sheerun/vim-polyglot'
+Plugin 'catppuccin/vim',{'name':'catppuccin'}
 Plugin 'itchyny/lightline.vim'
-Plugin 'dracula/vim',{'name':'dracula'}
+"Plugin 'dracula/vim',{'name':'dracula'}
 
 call vundle#end()            " required
 
-"colorscheme catppuccin_macchiato
-colorscheme dracula
-let g:lightline = {'colorscheme': 'dracula'}
+colorscheme catppuccin_mocha
+"colorscheme dracula
+
+let g:lightline = {'colorscheme': 'catppuccin_mocha'}
+"let g:lightline = {'colorscheme': 'dracula'}
+
 set noshowmode
 set laststatus=2
 

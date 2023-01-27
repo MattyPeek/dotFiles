@@ -336,7 +336,7 @@ r_schemes:
 colors: *frappe
 
 font:
-  # Normal (roman) font face
+  size: 15.0
   normal:
     # Font family
     #
@@ -377,7 +377,9 @@ font:
   # - On Arch on MacBook
   #size: 23.0
   # - On classic fullhd
-  size: 12.0
+  #size: 12.0
+  # - On 16:10 Dell
+
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
@@ -406,7 +408,7 @@ font:
   #
   # This is a global setting and will require a log out or restart to take
   # effect.
-  use_thin_strokes: true
+  #use_thin_strokes: true
 
 # If `true`, bold text is drawn using the bright color variants.
 draw_bold_text_with_bright_colors: false
