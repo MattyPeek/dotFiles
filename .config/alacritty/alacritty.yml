@@ -333,7 +333,7 @@ r_schemes:
 
 
 
-colors: *frappe
+colors: *mocha
 
 font:
   size: 15.0
