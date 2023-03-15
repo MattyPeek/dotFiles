@@ -1,5 +1,20 @@
 updateInfoAdded=true
 
+[bismuth_new_logger.upd]
+ctime=1678547189
+done=bismuth-new-logger
+mtime=1678547171
+
+[bismuth_old_conf_ui.upd]
+ctime=1678547189
+done=bismuth-old-conf-ui
+mtime=1678547171
+
+[bismuth_shortcuts_category.upd]
+ctime=1678547189
+done=bismuth-shortcuts-category
+mtime=1678547171
+
 [breezehighcontrasttobreezedark.upd]
 ctime=1678216765
 done=BreezeHighContrastToBreezeDark
@@ -24,6 +39,11 @@ mtime=1677591818
 ctime=1678216768
 done=PlasmaVolume_DisableKMixAutostart
 mtime=1677593770
+
+[dolphin_detailsmodesettings.upd]
+ctime=1678305451
+done=rename-leading-padding
+mtime=1677578429
 
 [filepicker.upd]
 ctime=1676456673

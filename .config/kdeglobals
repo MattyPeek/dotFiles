@@ -24,13 +24,13 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=64,69,82
+BackgroundAlternate=138,76,103
 BackgroundNormal=65,72,87
-DecorationFocus=82,148,226
-DecorationHover=82,148,226
-ForegroundActive=61,174,233
+DecorationFocus=170,79,111
+DecorationHover=170,79,111
+ForegroundActive=170,79,111
 ForegroundInactive=137,141,153
-ForegroundLink=29,153,243
+ForegroundLink=170,79,111
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=211,218,227
@@ -38,31 +38,34 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [Colors:Complementary]
-ForegroundLink=29,153,243
+DecorationFocus=170,79,111
+DecorationHover=170,79,111
+ForegroundActive=170,79,111
+ForegroundLink=170,79,111
 ForegroundVisited=155,89,182
 
 [Colors:Selection]
-BackgroundAlternate=29,153,243
-BackgroundNormal=82,148,226
-DecorationFocus=82,148,226
-DecorationHover=82,148,226
-ForegroundActive=252,252,252
-ForegroundInactive=147,186,227
-ForegroundLink=20,109,172
+BackgroundAlternate=138,76,102
+BackgroundNormal=138,76,102
+DecorationFocus=170,79,111
+DecorationHover=170,79,111
+ForegroundActive=170,79,111
+ForegroundInactive=255,255,255
+ForegroundLink=170,79,111
 ForegroundNegative=160,48,50
 ForegroundNeutral=182,85,0
-ForegroundNormal=211,218,227
+ForegroundNormal=255,255,255
 ForegroundPositive=27,123,67
 ForegroundVisited=155,89,182
 
 [Colors:Tooltip]
 BackgroundAlternate=47,52,63
 BackgroundNormal=53,57,69
-DecorationFocus=82,148,226
-DecorationHover=82,148,226
-ForegroundActive=61,174,233
+DecorationFocus=170,79,111
+DecorationHover=170,79,111
+ForegroundActive=170,79,111
 ForegroundInactive=137,141,153
-ForegroundLink=29,153,243
+ForegroundLink=170,79,111
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=211,218,227
@@ -72,11 +75,11 @@ ForegroundVisited=155,89,182
 [Colors:View]
 BackgroundAlternate=64,69,82
 BackgroundNormal=64,69,82
-DecorationFocus=82,148,226
-DecorationHover=82,148,226
-ForegroundActive=61,174,233
+DecorationFocus=170,79,111
+DecorationHover=170,79,111
+ForegroundActive=170,79,111
 ForegroundInactive=137,141,153
-ForegroundLink=29,153,243
+ForegroundLink=170,79,111
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=211,218,227
@@ -86,11 +89,11 @@ ForegroundVisited=155,89,182
 [Colors:Window]
 BackgroundAlternate=47,52,63
 BackgroundNormal=47,52,63
-DecorationFocus=82,148,226
-DecorationHover=82,148,226
-ForegroundActive=61,174,233
+DecorationFocus=170,79,111
+DecorationHover=170,79,111
+ForegroundActive=170,79,111
 ForegroundInactive=137,141,153
-ForegroundLink=29,153,243
+ForegroundLink=170,79,111
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=211,218,227
@@ -98,8 +101,9 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [General]
+AccentColor=170,79,111
 ColorSchemeHash=fe6711d5312a664b695e8bc1d1d4b53f52ba20f0
-LastUsedCustomAccentColor=170,85,127
+LastUsedCustomAccentColor=170,79,111
 XftHintStyle=hintslight
 XftSubPixel=rgb
 fixed=FreeMono,10,-1,5,50,0,0,0,0,0
@@ -134,6 +138,12 @@ View Style=DetailTree
 
 [KScreen]
 ScreenScaleFactors=eDP-1=1;HDMI-1=1;DP-1=1;DP-2=1;
+
+[KShortcutsDialog Settings]
+Dialog Size=983,773
+
+[PreviewSettings]
+MaximumRemoteSize=0
 
 [WM]
 activeBackground=47,52,63
