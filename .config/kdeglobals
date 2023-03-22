@@ -138,6 +138,7 @@ View Style=DetailTree
 
 [KScreen]
 ScreenScaleFactors=eDP-1=1;HDMI-1=1;DP-1=1;DP-2=1;
+XwaylandClientsScale=false
 
 [KShortcutsDialog Settings]
 Dialog Size=983,773

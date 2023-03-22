@@ -79,7 +79,7 @@ SystrayContainmentId=7
 
 [Containments][1][ConfigDialog]
 DialogHeight=67
-DialogWidth=1920
+DialogWidth=2240
 
 [Containments][1][General]
 AppletOrder=32;27;5;25;26;6;30;29
@@ -102,8 +102,8 @@ DialogWidth=560
 
 [Containments][19][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=446
-ToolBoxButtonY=34
+ToolBoxButtonX=526
+ToolBoxButtonY=42
 
 [Containments][19][Wallpaper][org.kde.image][General]
 Image=/home/maty/Downloads/2880-1800-max.jpg
@@ -175,6 +175,9 @@ plugin=org.kde.plasma.clipboard
 immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
+[Containments][7][Applets][21][Configuration]
+PreloadWeight=34
+
 [Containments][7][Applets][22]
 immutability=1
 plugin=org.kde.plasma.battery
@@ -190,14 +193,14 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][23][Configuration]
-PreloadWeight=85
+PreloadWeight=90
 
 [Containments][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][7][Applets][24][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][7][Applets][31]
 immutability=1
@@ -215,9 +218,10 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][9][Configuration]
-PreloadWeight=60
+PreloadWeight=70
 
 [Containments][7][Applets][9][Configuration][General]
+currentTab=streams
 migrated=true
 
 [Containments][7][ConfigDialog]

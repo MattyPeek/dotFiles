@@ -1,5 +1,10 @@
 updateInfoAdded=true
 
+[ark.upd]
+ctime=1679050874
+done=add-hamburgermenu-to-toolbar
+mtime=1677587267
+
 [bismuth_new_logger.upd]
 ctime=1678547189
 done=bismuth-new-logger
