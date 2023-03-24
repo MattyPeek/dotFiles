@@ -2,8 +2,10 @@
 update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize,kcminputrc_fix_botched_5_21_0.upd:kcminputrc_fix_botched_5_21_0_pre,kcminputrc_fix_botched_5_21_0.upd:kcminputrc_fix_botched_5_21_0,kcminputrc_repeat.upd:kcminputrc_migrate_key_repeat
 
 [Libinput][10182][3396][VEN_27C6:00 27C6:0D44 Touchpad]
+ClickMethod=2
 NaturalScroll=true
-ScrollFactor=0.5
+PointerAcceleration=-0.200
+ScrollFactor=0.75
 TapToClick=true
 
 [Libinput][1848][5896][Mad Catz Mad Catz R.A.T.7 Mouse]
@@ -11,7 +13,7 @@ PointerAcceleration=0.000
 PointerAccelerationProfile=1
 
 [Mouse]
-X11LibInputXAccelProfileFlat=false
+X11LibInputXAccelProfileFlat=true
 XLbInptAccelProfileFlat=true
 XLbInptPointerAcceleration=-0.2
 

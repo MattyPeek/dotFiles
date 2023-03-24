@@ -176,7 +176,7 @@ immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][7][Applets][21][Configuration]
-PreloadWeight=34
+PreloadWeight=18
 
 [Containments][7][Applets][22]
 immutability=1
@@ -193,14 +193,14 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][23][Configuration]
-PreloadWeight=90
+PreloadWeight=87
 
 [Containments][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][7][Applets][24][Configuration]
-PreloadWeight=65
+PreloadWeight=57
 
 [Containments][7][Applets][31]
 immutability=1

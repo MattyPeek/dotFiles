@@ -5,14 +5,4 @@ update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_valu
 count=0
 
 [Session: saved at previous logout]
-clientId1=10d8dad375000167951262300000122950004
-clientId2=10d8dad375000167951275200000122950007
-count=2
-program1=/usr/lib/DiscoverNotifier
-program2=/usr/bin/multimc
-restartCommand1=/usr/lib/DiscoverNotifier,-session,10d8dad375000167951262300000122950004_1679512892_596944
-restartCommand2=/usr/bin/multimc,-session,10d8dad375000167951275200000122950007_1679512892_596993
-restartStyleHint1=0
-restartStyleHint2=0
-userId1=maty
-userId2=maty
+count=0
