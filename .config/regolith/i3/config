@@ -91,7 +91,7 @@ set_from_resource $ws10_key i3-wm.workspace.10.key 0
 
 ## Launch // Terminal // <> Enter ##
 set_from_resource $i3-wm.binding.terminal i3-wm.binding.terminal Return
-bindsym $mod+$i3-wm.binding.terminal exec /usr/bin/alacritty
+bindsym $mod+$i3-wm.binding.terminal exec alacritty
 
 ## Launch // Browser // <><Shift> Enter ##
 set_from_resource $i3-wm.binding.browser i3-wm.binding.browser Shift+Return
@@ -709,6 +709,9 @@ exec --no-startup-id xinput set-prop "VEN_27C6:00 27C6:0D44 Touchpad" "libinput 
 exec --no-startup-id xinput set-prop "VEN_27C6:00 27C6:0D44 Touchpad" "libinput Scrolling Pixel Distance" 50
 
 exec --no-startup-id polybar
+
+# Set the keyboard layout
+exec --no-startup-id setxkbmap -layout us -variant cz_sk_de
 
 ########################
 # Start in workspaces
