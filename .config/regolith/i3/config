@@ -149,14 +149,14 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 ## Navigate // Relative Window // <> k j h l ##
-set_from_resource $i3-wm.binding.left i3-wm.binding.left h
-set_from_resource $i3-wm.binding.right i3-wm.binding.right l
-set_from_resource $i3-wm.binding.up i3-wm.binding.up k
-set_from_resource $i3-wm.binding.down i3-wm.binding.down j
-bindsym $mod+$i3-wm.binding.left focus left
-bindsym $mod+$i3-wm.binding.down focus down
-bindsym $mod+$i3-wm.binding.up focus up
-bindsym $mod+$i3-wm.binding.right focus right
+#set_from_resource $i3-wm.binding.left i3-wm.binding.left h
+#set_from_resource $i3-wm.binding.right i3-wm.binding.right l
+#set_from_resource $i3-wm.binding.up i3-wm.binding.up k
+#set_from_resource $i3-wm.binding.down i3-wm.binding.down j
+#bindsym $mod+$i3-wm.binding.left focus left
+#bindsym $mod+$i3-wm.binding.down focus down
+#bindsym $mod+$i3-wm.binding.up focus up
+#bindsym $mod+$i3-wm.binding.right focus right
 
 ## Navigate // Workspaces 1-10 // <> 0..9 ##
 bindsym $mod+$ws1_key workspace number $ws1
@@ -413,9 +413,9 @@ set_from_resource $i3-wm.program.settings i3-wm.program.settings gnome-control-c
 bindsym $mod+$i3-wm.binding.settings exec $i3-wm.program.settings
 
 ## Modify // Display Settings // <> d ##
-set_from_resource $i3-wm.binding.display i3-wm.binding.display d
-set_from_resource $i3-wm.program.display i3-wm.program.display gnome-control-center --class=floating_window display
-bindsym $mod+$i3-wm.binding.display exec $i3-wm.program.display
+#set_from_resource $i3-wm.binding.display i3-wm.binding.display d
+#set_from_resource $i3-wm.program.display i3-wm.program.display gnome-control-center --class=floating_window display
+#bindsym $mod+$i3-wm.binding.display exec $i3-wm.program.display
 
 ## Modify // Wifi Settings // <> w ##
 set_from_resource $i3-wm.binding.wifi i3-wm.binding.wifi w
@@ -660,6 +660,9 @@ set_from_resource $i3-wm.bar.mode i3-wm.bar.mode dock
 
 bindsym	Print	exec	maim -s /home/maty/Downloads/$(date +%s).png
 #bindsym Shift+Print exec flameshot gui 
+bindsym	$mod+d	exec	discord
+bindsym	$mod+k	exec	setxkbmap -layout us -variant cz_sk_de
+
 
 ######################
 # Startup

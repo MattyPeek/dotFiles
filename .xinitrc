@@ -13,4 +13,6 @@ fi
 # Run .Xmodmaprc
 xmodmap $HOME/.Xmodmaprc
 
+setxkbmap -layout us -variant cz_sk_de
 exec i3
+#exec regolith

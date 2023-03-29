@@ -29,6 +29,7 @@ let g:lightline = {'colorscheme': 'catppuccin_mocha'}
 set noshowmode
 set laststatus=2
 
+set mouse=a
 " Brief help
 " :PluginList       - lists configured plugins
 " :PluginInstall    - installs plugins; append `!` to update or just
