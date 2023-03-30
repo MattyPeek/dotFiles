@@ -53,8 +53,11 @@ bindsym $mod+space exec --no-startup-id i3-dmenu-desktop --dmenu='dmenu -i -fn "
 bindsym $mod+l exec --no-startup-id i3lock --color 000808
 
 # Change keyboard layout to cz_sk_de
-
 bindsym $mod+k exec setxkbmap -layout us -variant cz_sk_de 
+
+
+bindsym $mod+a exec --no-startup-id helvum
+bindsym $mod+Shift+a exec --no-startup-id terminator -e 'pulsemixer'
 
 # kill focused window
 bindsym $mod+q kill
