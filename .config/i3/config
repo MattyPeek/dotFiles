@@ -46,7 +46,7 @@ bindsym $mod+Shift+Return exec firefox
 #bindsym $mod+space exec dmenu_run -fn 'Monofur Nerd Font Mono' -sb red -b
 
 # Launch dmenu (.desktop version)
-bindsym $mod+space exec --no-startup-id i3-dmenu-desktop --dmenu='dmenu -i -fn "Monofur Nerd Font Mono" -sb red -b'
+bindsym $mod+space exec --no-startup-id i3-dmenu-desktop --dmenu='dmenu -i -fn "Monofur Nerd Font Mono-20" -sb red -b'
 
 
 # Launch i3lock - lockscreen
