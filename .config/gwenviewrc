@@ -1,2 +1,46 @@
 [$Version]
 update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+ThumbnailBarIsVisible=true
+
+[ImageView]
+ThumbnailSplitterSizes=743,212
+
+[MainWindow]
+1792x1120 screen: Window-Maximized=true
+2 screens: Height=976
+2 screens: Width=1491
+2 screens: Window-Maximized=true
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPqAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/Wireshark.png
+File10[$e]=$HOME/Downloads/Screenshot_14.png
+File2[$e]=$HOME/Downloads/Snímek obrazovky z 2023-06-17 10-29-25.png
+File3[$e]=$HOME/Downloads/Képernyőfotó 2023-06-18 - 16.26.04.png
+File4[$e]=$HOME/Downloads/Képernyőfotó 2023-06-18 - 16.26.04-1.png
+File5[$e]=$HOME/Downloads/image001.png
+File6[$e]=$HOME/Downloads/humpolec-1,5k.pdf
+File7[$e]=$HOME/Downloads/Firefox_wallpaper.png
+File8[$e]=$HOME/Downloads/Firefox - Network.png
+File9[$e]=$HOME/Downloads/image002.png
+Name1[$e]=Wireshark.png
+Name10[$e]=Screenshot_14.png
+Name2[$e]=Snímek obrazovky z 2023-06-17 10-29-25.png
+Name3[$e]=Képernyőfotó 2023-06-18 - 16.26.04.png
+Name4[$e]=Képernyőfotó 2023-06-18 - 16.26.04-1.png
+Name5[$e]=image001.png
+Name6[$e]=humpolec-1,5k.pdf
+Name7[$e]=Firefox_wallpaper.png
+Name8[$e]=Firefox - Network.png
+Name9[$e]=image002.png
+
+[SideBar]
+InformationSplitterSizes=221,254
+IsVisible ViewMode=true
+SideBarSplitterSizes=225,1694

@@ -3,19 +3,27 @@ update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize,kcminp
 
 [Libinput][10182][3396][VEN_27C6:00 27C6:0D44 Touchpad]
 ClickMethod=2
+DisableWhileTyping=false
 NaturalScroll=true
 PointerAcceleration=-0.200
-ScrollFactor=0.75
+ScrollFactor=0.1
 TapToClick=true
+
+[Libinput][1255][80][EloTouchSystems,Inc Elo TouchSystems 2216 AccuTouch® USB Touchmonitor Interface]
+OutputName=HDMI-A-1
 
 [Libinput][1848][5896][Mad Catz Mad Catz R.A.T.7 Mouse]
 PointerAcceleration=0.000
+PointerAccelerationProfile=1
+
+[Libinput][4152][6192][SteelSeries SteelSeries Rival 3 Wireless]
 PointerAccelerationProfile=1
 
 [Mouse]
 X11LibInputXAccelProfileFlat=true
 XLbInptAccelProfileFlat=true
 XLbInptPointerAcceleration=-0.2
+cursorTheme=McMojave-cursors
 
 [Tmp]
 update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize

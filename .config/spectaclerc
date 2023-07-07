@@ -1,2 +1,11 @@
 [$Version]
 update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_rememberregion.upd:spectacle-migrate-rememberregion
+
+[General]
+onLaunchAction=DoNotTakeScreenshot
+
+[GuiConfig]
+captureMode=0
+
+[Save]
+lastSaveLocation=file:///home/maty/Screenshot_20230609_123057.png

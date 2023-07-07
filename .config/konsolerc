@@ -5,12 +5,18 @@ DefaultProfile=MattyPeek.profile
 ConfigVersion=1
 
 [MainWindow]
-1792x1120 screen: Height=634
-1792x1120 screen: Width=1133
+1493x933 screen: Height=608
+1493x933 screen: Width=1133
+1493x933 screen: Window-Maximized=true
+1792x1120 screen: Height=871
+1792x1120 screen: Width=1505
 1792x1120 screen: XPosition=330
 1792x1120 screen: YPosition=270
-2 screens: Height=1007
-2 screens: Width=1920
+1920x1080 screen: Height=608
+1920x1080 screen: Width=1133
+1920x1080 screen: Window-Maximized=true
+2 screens: Height=608
+2 screens: Width=960
 2 screens: Window-Maximized=true
 2 screens: XPosition=2240
 2 screens: YPosition=226
@@ -19,6 +25,7 @@ ConfigVersion=1
 2240x1400 screen: Window-Maximized=true
 2240x1400 screen: XPosition=0
 2240x1400 screen: YPosition=0
+3 screens: Window-Maximized=true
 HDMI-1 eDP-1=HDMI-1
 HDMI-1 eDP-1 Height 1536x864 HDMI-1=830
 HDMI-1 eDP-1 Height 1792x1120 eDP-1=1120
@@ -51,7 +58,8 @@ None-1 XPosition 3024x1890=1
 None-1 YPosition 1512x945=47
 None-1 YPosition 2016x1260=343
 None-1 YPosition 3024x1890=10
-State=AAAA/wAAAAD9AAAAAQAAAAAAAAEQAAACMvwCAAAAAvsAAAAcAFMAUwBIAE0AYQBuAGEAZwBlAHIARABvAGMAawAAAABIAAACMgAAANsA////+wAAACIAUQB1AGkAYwBrAEMAbwBtAG0AYQBuAGQAcwBEAG8AYwBrAAAAAEgAAAIyAAABKwD///8AAAiiAAAE+AAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAAPL/////AAAAAAAAAAA=
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAEQAAACMvwCAAAAAvsAAAAcAFMAUwBIAE0AYQBuAGEAZwBlAHIARABvAGMAawAAAABIAAACMgAAAOAA////+wAAACIAUQB1AGkAYwBrAEMAbwBtAG0AYQBuAGQAcwBEAG8AYwBrAAAAAEgAAAIyAAABQgD///8AAAXhAAADPQAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAAO7/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 XWAYLAND0 XWAYLAND1=XWAYLAND0
 XWAYLAND0 XWAYLAND1 Height 2240x1400 XWAYLAND1=618
@@ -86,6 +94,7 @@ eDP1=eDP1
 
 [Notification Messages]
 CloseAllTabs=true
+CloseSingleTab=true
 
 [UiSettings]
 ColorScheme=

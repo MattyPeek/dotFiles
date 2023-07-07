@@ -152,3 +152,4 @@ export PATH="$HOME/bin:$PATH"
 #=======
 #>>>>>>> 92ae54a01787ce162ab8a0ff99835c8155935e93
 alias dpi=xinput set-prop "Rival 3 Wireless" "libinput Accel Speed" -1
+#alias vsh="ssh -A -L 8888:localhost:8888 -p 22027 matyaspesek@vsh-ts-l1.vshosting.cz -t 'zsh -l'"

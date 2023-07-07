@@ -2,19 +2,17 @@
 update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered,bismuth_new_logger.upd:bismuth-new-logger
 
 [Compositing]
-LatencyPolicy=Medium
+AllowTearing=false
+LatencyPolicy=High
 OpenGLIsUnsafe=false
 
 [Desktops]
 Id_1=9b5c2711-635c-41a5-a22f-6d19109b0c37
-Id_2=3abe0c93-aee7-4488-bdc7-a7bfa16209c4
-Id_3=5f10ef3f-710f-4cac-a0ee-3ff3b9043520
-Id_4=d649f9bd-3c4e-470a-b72c-753bf4b1b353
-Id_5=e3a855b9-29e5-4276-a04f-e54aaa12951a
-Id_6=084570ed-f4f0-48c2-90bb-6ba48006812a
-Id_7=d0c0222f-2753-4131-8559-19c9f5fc01f4
-Id_8=d38387ee-3ee2-4e0c-8b59-9460b799def4
-Number=8
+Id_2=52dcf758-b229-4f8c-8838-22365c4205ba
+Id_3=b22e6d85-96db-4b15-87fe-448ee806e0f1
+Id_4=02303912-7a3d-4268-9ead-8b3c795df521
+Id_5=1118f19e-fe3e-434c-9b06-c17fd40050b4
+Number=5
 Rows=1
 
 [Effect-glide]
@@ -31,13 +29,23 @@ LayoutMode=0
 [Effect-windowview]
 BorderActivateAll=9
 
+[MouseBindings]
+CommandAllWheel=Maximize/Restore
+
 [NightColor]
 Active=true
+NightTemperature=3800
 
 [Plugins]
 bismuthEnabled=true
+forceblurEnabled=false
+ktileEnabled=false
 kwin4_effect_squashEnabled=false
+macsimizeEnabled=false
 magiclampEnabled=true
+maximized-window-gapEnabled=false
+poloniumEnabled=false
+tilegapsEnabled=false
 wobblywindowsEnabled=true
 
 [Script-bismuth]
@@ -52,6 +60,19 @@ screenGapTop=3
 tileLayoutGap=5
 untileByDragging=false
 
+[Script-polonium]
+MaximizeSingle=true
+
+[Script-tilegaps]
+gapBottom=5
+gapLeft=5
+gapRight=5
+gapTop=5
+includeMaximized=true
+
+[TabBox]
+LayoutName=big_icons
+
 [Tiling]
 padding=4
 
@@ -61,8 +82,11 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
-[Tiling][440766b1-c0ae-5de6-a8a3-b06281637015]
+[Tiling][3f6394f9-6200-5e85-9161-07e6a28253d0]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][440766b1-c0ae-5de6-a8a3-b06281637015]
+tiles={"layoutDirection":"horizontal","tiles":[]}
 
 [Tiling][44bea82b-2de0-5111-957d-06ed811de8d0]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -70,7 +94,16 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][5b7a5ba4-43cc-5910-8e98-f358f9d54b43]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][639fd4bf-2ce4-59cf-999e-2991ad8814f5]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][6c2d6de8-0d6d-5694-b040-7704205fd06d]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][752b9b1b-0e51-5c25-bd9e-f72062a6171f]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.25},{"width":0.25}]}
+
+[Tiling][7813eb9a-1196-52a7-8d3b-6b28e9c49500]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][a02c9141-5d68-5204-861e-87e1acc8095a]
@@ -82,10 +115,20 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.15000000000000002},{"l
 [Tiling][d53d79a1-7cbd-5024-a372-7811fa19ade0]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][d8a0076c-82b0-5eae-b352-e6b0c4f9eb55]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
+
 [Windows]
+DelayFocusInterval=0
 ElectricBorders=1
 
+[Xwayland]
+Scale=1.25
+
 [org.kde.kdecoration2]
+BorderSize=NoSides
+BorderSizeAuto=false
 ButtonsOnLeft=
-ButtonsOnRight=
+ButtonsOnRight=IAX
 ShowToolTips=false
+theme=__aurorae__svg__Materia-Dark

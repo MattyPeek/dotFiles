@@ -1,5 +1,15 @@
+[Applications][balena-etcher]
+Seen=true
+
 [Applications][discord]
 Seen=true
 
 [Applications][firefox]
 Seen=true
+
+[Applications][thunderbird]
+Seen=true
+
+[Notifications]
+PopupPosition=TopRight
+PopupTimeout=4000

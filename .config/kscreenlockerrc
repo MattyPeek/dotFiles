@@ -1,2 +1,13 @@
 [$Version]
 update_info=kscreenlocker.upd:0.1-autolock
+
+[Daemon]
+Autolock=false
+Timeout=15
+
+[Greeter][LnF][General]
+showMediaControls=false
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/home/maty/Downloads/2880-1800-max.jpg
+PreviewImage=/home/maty/Downloads/2880-1800-max.jpg
